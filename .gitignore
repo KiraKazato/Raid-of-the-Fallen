@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
+# --- Visual Studio & C++ 用の結界 ---
+# 隠しフォルダやユーザー固有の設定ファイル
+.vs/
+*.user
+*.suo
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# ビルド時に生成される重い中間ファイルや出力ファイル
+Debug/
+Release/
+x64/
+x86/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.ilk
+*.idb
+
+# ログファイル
+*.log
